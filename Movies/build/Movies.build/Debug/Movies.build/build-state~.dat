@@ -1,0 +1,70 @@
+TMovies
+v7
+r0
+t331120553.259986
+cCheck dependencies
+cCompileC build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o /Users/Mark/Desktop/Movies/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/Mark/Desktop/Movies/build/Debug/Movies normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC326060000000000004174
+t1254303238
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC326060000000000001731
+t1254303238
+s5937
+
+N/Users/Mark/Desktop/Movies/build/Debug/Movies
+t1309427753
+s9160
+
+N/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/Movies.LinkFileList
+c000000004E0C4828000000000000005E
+t1309427752
+s94
+
+N/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o
+t1309427750
+s4924
+
+N/Users/Mark/Desktop/Movies/main.c
+c000000004E0C4826000000000000035F
+t1309427750
+s863
+i<stdio.h>
+i<string.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies331120552#331120552#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o /Users/Mark/Desktop/Movies/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s331120552.802029
+e331120552.839000
+r1
+xCompileC
+xbuild/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o
+x/Users/Mark/Desktop/Movies/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/Mark/Desktop/Movies/main.c331120552#331120552#0(758"/Users/Mark/Desktop/Movies/main.c: In function 'main':/Users/Mark/Desktop/Movies/main.c:22: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast/Users/Mark/Desktop/Movies/main.c:25: warning: passing argument 1 of 'PrintDVDs' from incompatible pointer type/Users/Mark/Desktop/Movies/main.c:25: warning: passing argument 2 of 'PrintDVDs' from incompatible pointer type/Users/Mark/Desktop/Movies/main.c: In function 'PrintDVDs':/Users/Mark/Desktop/Movies/main.c:33: warning: format '%s' expects type 'char *', but argument 3 has type 'int'/Users/Mark/Desktop/Movies/main.c:33: warning: format '%s' expects type 'char *', but argument 4 has type 'int'/Users/Mark/Desktop/Movies/main.c:33: warning: too few arguments for format6(22@71"Passing argument 1 of 'fgets' makes pointer from integer without a cast331120552#55#119#0(6@33"/Users/Mark/Desktop/Movies/main.c331120550#22#0#22#0#0"0(22@64"Passing argument 1 of 'PrintDVDs' from incompatible pointer type331120552#174#112#0(6@33"/Users/Mark/Desktop/Movies/main.c331120550#25#0#25#0#56"passing argument * of '*' from incompatible pointer type0(22@64"Passing argument 2 of 'PrintDVDs' from incompatible pointer type331120552#286#112#0(6@33"/Users/Mark/Desktop/Movies/main.c331120550#25#0#25#0#56"passing argument * of '*' from incompatible pointer type0(22@64"Format '%s' expects type 'char *', but argument 3 has type 'int'331120552#458#112#0(6@33"/Users/Mark/Desktop/Movies/main.c331120550#33#0#33#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%s' expects type 'char *', but argument 4 has type 'int'331120552#570#112#0(6@33"/Users/Mark/Desktop/Movies/main.c331120550#33#0#33#0#56"format '*' expects type '*', but argument * has type '*'0(22@28"Too few arguments for format331120552#682#76#0(6@33"/Users/Mark/Desktop/Movies/main.c331120550#33#0#33#0#0"0(0#0#33"/Users/Mark/Desktop/Movies/main.c8660259774160596992#1120"    cd /Users/Mark/Desktop/Movies    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Movies-generated-files.hmap -I/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Movies-own-target-headers.hmap -I/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Movies-all-target-headers.hmap -iquote /Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Movies-project-headers.hmap -F/Users/Mark/Desktop/Movies/build/Debug -I/Users/Mark/Desktop/Movies/build/Debug/include -I/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/DerivedSources/x86_64 -I/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/DerivedSources -c /Users/Mark/Desktop/Movies/main.c -o /Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/Mark/Desktop/Movies/build/Debug/Movies normal x86_64
+s331120552.839070
+e331120553.259914
+r1
+xLd
+x/Users/Mark/Desktop/Movies/build/Debug/Movies
+xnormal
+xx86_64
+lSLF07#2@50"Link /Users/Mark/Desktop/Movies/build/Debug/Movies331120552#331120553#0(0"0(0#0#0"4300911832#434"    cd /Users/Mark/Desktop/Movies    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mark/Desktop/Movies/build/Debug -F/Users/Mark/Desktop/Movies/build/Debug -filelist /Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/Movies.LinkFileList -mmacosx-version-min=10.6 -o /Users/Mark/Desktop/Movies/build/Debug/Movies0#
+

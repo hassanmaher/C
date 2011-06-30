@@ -1,0 +1,70 @@
+TMovies
+v7
+r0
+t331125013.074539
+cCheck dependencies
+cCompileC build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o /Users/Mark/Desktop/Movies/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/Mark/Desktop/Movies/build/Debug/Movies normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC326060000000000004174
+t1254303238
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC326060000000000001731
+t1254303238
+s5937
+
+N/Users/Mark/Desktop/Movies/build/Debug/Movies
+t1309432213
+s9432
+
+N/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/Movies.LinkFileList
+c000000004E0C4828000000000000005E
+t1309427752
+s94
+
+N/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o
+t1309432212
+s5684
+
+N/Users/Mark/Desktop/Movies/main.c
+c000000004E0C599400000000000004BC
+t1309432212
+s1212
+i<stdio.h>
+i<string.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies331125013#331125013#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o /Users/Mark/Desktop/Movies/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s331125013.054019
+e331125013.055025
+r1
+xCompileC
+xbuild/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o
+x/Users/Mark/Desktop/Movies/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/Mark/Desktop/Movies/main.c331125013#331125013#0(0"0(0#0#33"/Users/Mark/Desktop/Movies/main.c4300911832#1120"    cd /Users/Mark/Desktop/Movies    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Movies-generated-files.hmap -I/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Movies-own-target-headers.hmap -I/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Movies-all-target-headers.hmap -iquote /Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Movies-project-headers.hmap -F/Users/Mark/Desktop/Movies/build/Debug -I/Users/Mark/Desktop/Movies/build/Debug/include -I/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/DerivedSources/x86_64 -I/Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/DerivedSources -c /Users/Mark/Desktop/Movies/main.c -o /Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/Mark/Desktop/Movies/build/Debug/Movies normal x86_64
+s331125013.055083
+e331125013.074497
+r1
+xLd
+x/Users/Mark/Desktop/Movies/build/Debug/Movies
+xnormal
+xx86_64
+lSLF07#2@50"Link /Users/Mark/Desktop/Movies/build/Debug/Movies331125013#331125013#0(0"0(0#0#0"4300911832#434"    cd /Users/Mark/Desktop/Movies    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Mark/Desktop/Movies/build/Debug -F/Users/Mark/Desktop/Movies/build/Debug -filelist /Users/Mark/Desktop/Movies/build/Movies.build/Debug/Movies.build/Objects-normal/x86_64/Movies.LinkFileList -mmacosx-version-min=10.6 -o /Users/Mark/Desktop/Movies/build/Debug/Movies0#
+
